@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="basic to-do list app in jQuery">
+    <title>My to-do list</title>
+    <!--Css Sheets-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="icon">
+            <img src="img/fruit.png" alt="funny pineapple with glasses" class="roll-in-blurred-left">
+        </div>
+        <h1 id="header">To-do list</h1>
+    </header>
+
+    <main>
+        <div id="list_section">
+            <ul>
+                <span title="Click to remove"><li class="item">let's go!</li></span>
+            </ul>
+            <div id="newItemButton">
+                <button href="#">Do more</button>
+            </div>
+            <form id="newItemForm">
+                <div>
+                    <input type="text" id="itemField" placeholder="Do what you Do" />
+                </div>
+                <div>
+                    <input type="submit" id="add" value="add"/> 
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">&copy 2020 <a href="https://aurelie-rodriguesdutrey-codingandco.fr">Aurelie Rodrigues Dutrey | Coding & Co</a></div>
+    </footer>
+
+    <!--- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.3.js"
+        integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
